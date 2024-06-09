@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  padding: 30px;
+  background-color: #150b3e;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Roboto';
+  background-color: #c7d2fe;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+  margin-left: 20px;
+}
+
+.bal-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bal-heading {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 20px;
+}
+.bal-content {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 25px;
+}
+.bal-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #585076;
+}
+
+.withdraw-heading {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 20px;
+}
+.sum-heading {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 20px;
+}
+
+.ul-con {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-item-con {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.list-btn {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  height: 35px;
+  width: 155px;
+  cursor: pointer;
+}
