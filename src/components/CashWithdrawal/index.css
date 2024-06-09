@@ -11,6 +11,7 @@
   background-color: #150b3e;
   width: 400px;
   border-radius: 10px;
+  max-height: 430px;
 }
 
 .logo-name-container {
@@ -53,13 +54,15 @@
 }
 .bal-para {
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: bold;
   color: #585076;
 }
 
 .withdraw-heading {
   font-family: 'Roboto';
   color: #d4d2db;
+  margin-top: 0;
   font-size: 20px;
 }
 .sum-heading {

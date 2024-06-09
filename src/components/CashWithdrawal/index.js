@@ -7,7 +7,7 @@ class CashWithdrawal extends Component {
   state = {amt: 2000}
 
   onClickAmt = value => {
-    this.setState(prevState => ({amt: prevState.amt + value}))
+    this.setState(prevState => ({amt: prevState.amt - value}))
   }
 
   render() {
@@ -21,16 +21,20 @@ class CashWithdrawal extends Component {
             <h1 className="name">Sarah Williams</h1>
           </div>
           <div className="bal-con">
-            <h1 className="bal-heading">Your Balance</h1>
-            <h1 className="bal-content">
+            <p className="bal-heading">Your Balance</p>
+            <p className="bal-content">
               {amt} <br /> <p className="bal-para">In Rupess</p>
-            </h1>
+            </p>
           </div>
-          <h1 className="withdraw-heading">Withdraw</h1>
-          <h1 className="sum-heading">CHOOSE SUM(IN RUPEES)</h1>
+          <p className="withdraw-heading">Withdraw</p>
+          <p className="sum-heading">CHOOSE SUM (IN RUPEES)</p>
           <ul className="ul-con">
             {denominationsList.map(each => (
-              <DenominationItem onClickAmt={this.onClickAmt} item={each} />
+              <DenominationItem
+                onClickAmt={this.onClickAmt}
+                key={each.id}
+                item={each}
+              />
             ))}
           </ul>
         </div>
